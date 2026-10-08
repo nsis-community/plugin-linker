@@ -27,5 +27,6 @@ jobs:
           sources: |
             Contrib/Linker/Linker.c
             Contrib/Linker/URLCtrl.c
+          targets: x86-ansi,x86-unicode
           strict: false
           release: ${{ github.event_name == 'release' }}
